@@ -1,0 +1,480 @@
+html,
+body {
+    height: 100%;
+    min-width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+
+
+#cover img {
+    max-width: 65%;
+    margin-top: -10px;
+}
+
+@font-face{
+    font-family: 'Aaargh';
+    src: url('Aaargh.ttf');
+
+}
+
+@font-face{
+    font-family: 'Roboto-Thin';
+    src: url('Roboto-Thin.ttf');
+
+}
+
+@font-face{
+    font-family: 'Roboto-Light';
+    src: url('Roboto-Light.ttf');
+
+}
+
+
+.navbar-custom {
+    background-color: #0D1426;
+    color:white;
+    border-radius:0;
+}
+
+.navbar-custom .navbar-nav > li > a {
+    color:silver;
+}
+.navbar-custom .navbar-nav > .active > a, .navbar-nav > .active > a:hover, .navbar-nav > .active > a:focus {
+    color: #ffffff;
+    background-color:transparent;
+}
+.navbar-custom .navbar-brand {
+    color:#eeeeee;
+}
+
+
+
+.navbar-custom .navbar-nav > li > a:hover, .nav > li > a:focus {
+    text-decoration: none; background-color: transparent;
+    color: white;
+}
+
+.navbar-custom .navbar-toggle {
+    background-color:#0D1426;
+    border-width:1px;
+    border-color: white;
+}
+.navbar-custom .icon-bar {
+    background-color:white;
+}
+
+.break {
+    width:100%;
+    height: 100px;
+    background-color: #0D1426;
+}
+#about {
+    background:  url("meet2.jpg") center center no-repeat;
+    background-size: cover;
+    height: auto;
+    margin-top:-4%;
+    color:white;
+
+}
+
+
+
+#about2 {
+    background:  url("meet4.jpg") center center no-repeat;
+    background-size: cover;
+    margin-top:-4%;
+    color:white;
+    height: auto;
+}
+
+#about3 {
+    background:  url("meet6.jpg") center center no-repeat;
+    background-size: cover;
+    margin-top:-4%;
+    color:white;
+}
+
+.section-content {
+
+    padding: 5rem 0;
+
+}
+
+.about-text h1 {
+    font-family: Roboto-Light, "Helvetica Neue", sans-serif;
+}
+
+.about-text2 h1 {
+    font-family: Roboto-Light, "Helvetica Neue", sans-serif;
+}
+
+.about-text3 h1 {
+    font-family: Roboto-Light, "Helvetica Neue", sans-serif;
+}
+.about-text {
+    margin-top:10%;
+    font-family: Roboto-Thin, "Helvetica Neue", sans-serif;
+    color: white;
+    padding: 1.875rem;
+
+    background: rgba(0, 0, 0, .5);
+}
+
+.about-text2 {
+    margin-top:10%;
+    font-family: Roboto-Light, "Helvetica Neue", sans-serif;
+    color: white;
+    padding: 1.875rem;
+
+    background: rgba(0, 0, 0, .5);
+}
+
+.about-text3 {
+    margin-top:10%;
+    font-family: Roboto-Light, "Helvetica Neue", sans-serif;
+    color: white;
+    padding: 1.875rem;
+
+    background: rgba(0, 0, 0, .5);
+}
+
+
+
+#cover {
+    background: #222 url("meeting1.jpg") center center no-repeat;
+    background-size: cover;
+    color: white;
+    height: auto;
+
+    font-family: Raleway;
+    text-align: center;
+    display: flex;
+    align-items: center;
+
+
+
+
+}
+
+#cover-caption {
+    width:100%;
+}
+
+
+.section-content {
+
+    padding: 5rem 0;
+
+}
+
+
+
+#footer-main {
+    background: #222222;
+    color: white;
+    font-size: 0.8rem;
+    padding: 2.5rem 0;
+}
+
+a {
+
+    transition: background 0.15s linear 0s;
+
+}
+
+
+a:hover {
+    text-decoration: none;
+}
+
+button {
+    transition: background 0.15s linear 0s;
+}
+
+#arrow {
+    transition: border .5s ease 0s;
+    margin-top: -50px;
+    color: white;
+    border-color: white;
+}
+
+#arrow:hover{
+    border-color: #59ddff;
+    background-color: transparent;
+    border-width: 1px;
+    color: 59ddff;
+
+}
+
+@media (max-width: 480px) {
+    .hand {
+        width: 50px;
+        height: 35px;
+    }
+
+    #cover h1 {
+        font-size: 50px;
+        margin-top: 50px;
+    }
+
+    .launch {
+        width:100%;
+        height: auto;
+    }
+
+    #about img {
+        max-width:100%;
+
+    }
+
+    #about h1 {
+        font-size: 3em;
+    }
+
+    #about2 img {
+
+        max-width: 100%;
+
+    }
+
+    #about2 h1 {
+        font-size: 3em;
+    }
+
+    #about3 img {
+
+        max-width: 100%;
+
+    }
+
+    #about3 h1 {
+        font-size: 2.5em;
+    }
+
+}
+
+@media (min-width: 1200px) {
+    .hand {
+        height: 75px;
+        width: 100px;
+    }
+
+    .launch {
+        max-width: 30%;
+        height: auto;
+    }
+
+    #cover h1 {
+        font-size: 62px;
+    }
+
+    #about img {
+        max-width:80%;
+    }
+
+    #about h1 {
+        font-size: 5em;
+    }
+
+    #about2 img {
+
+        max-width: 120%;
+
+    }
+
+    #about2 h1 {
+        font-size: 5em;
+    }
+
+    #about3 img {
+
+        max-width: 120%;
+
+    }
+
+    #about3 h1 {
+        font-size: 5em;
+    }
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) {
+    .hand {
+        height: 65px;
+        width: 90px;
+    }
+
+    .launch {
+        max-width: 30%;
+    }
+
+    #cover h1 {
+        font-size: 50px;
+
+    }
+
+    #about img {
+        max-width:110%;
+    }
+
+    #about h1 {
+        font-size: 5em;
+    }
+
+    #about2 img {
+
+        max-width: 110%;
+
+    }
+
+    #about2 h1 {
+        font-size: 5em;
+    }
+
+    #about3 img {
+
+        max-width: 110%;
+
+    }
+
+    #about3 h1 {
+        font-size: 4.8em;
+    }
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+    .hand {
+        height: 55px;
+        width: 80px;
+    }
+
+    .launch {
+        max-width: 30%;
+    }
+
+    #cover h1 {
+        font-size: 50px;
+    }
+    #about img {
+        max-width:80%;
+
+    }
+
+    #about2 img {
+
+        max-width: 80%;
+
+    }
+
+    #about2 h1 {
+        font-size: 5em;
+    }
+
+    #about3 img {
+
+        max-width: 80%;
+
+    }
+
+    #about3 h1 {
+        font-size: 5em;
+    }
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+    .hand {
+        height: 65px;
+        width: 90px;
+    }
+
+    .launch {
+        max-width: 30%;
+        height: auto;
+    }
+
+    #cover h1 {
+        font-size: 40px;
+    }
+
+    #about img {
+        max-width:80%;
+        margin-left: 10%;
+    }
+
+    #about2 img {
+
+        max-width: 80%;
+        margin-left: 10%;
+    }
+
+    #about2 h1 {
+        font-size: 2.8em;
+
+    }
+
+    #about3 img {
+
+        max-width: 80%;
+        margin-left: 10%;
+    }
+
+    #about3 h1 {
+        font-size: 2.8em;
+    }
+
+}
+img {
+    postion: static;
+}
+
+
+
+footer .git {
+    height: 50px;
+    width:50px;
+    background-color: black;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    border-radius:100%;
+
+    transition: background 0.2s linear 0s;
+}
+
+.git:hover {
+    background-color: #149dea;
+}
+
+#logo img:hover {
+    height: 60px;
+    width: 70px;
+}
+
+.title2 {
+    margin-top: -20px;
+}
+
+#cover .container {
+    margin-top: 10%;
+
+}
+
+#cover .launch {
+    margin-top: -5%;
+}
+ footer a{
+     text-decoration: none;
+     color: silver;
+ }
+
+footer a:hover{
+    text-decoration: none;
+    color: white;
+}
+
+.home {
+    padding-top: 20px;
+}
